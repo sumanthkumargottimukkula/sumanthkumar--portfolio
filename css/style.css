@@ -8,7 +8,7 @@
 }
 
 body{
-    overflow-x: hidden;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -299,7 +299,7 @@ a:hover{
 }
 
 .wp:hover{
-    color: #25d366;
+    color: #25d366 !important;
 }
 
 /* home page ends...  */
@@ -447,29 +447,23 @@ a:hover{
 /* projects section starts  */
 
 .projects_section{
-    min-height: 50vh;
+    min-height: 600px;
     background-color: var(--bg-color);
     margin-left: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.proj_cont{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
     overflow: hidden;
 }
 
 .slide_cont{
     display: flex;
     justify-content: flex-start;
-    width: 100%;
+    width: 60%;
     margin: 12px auto;
     transition: all ease-in-out 0.5s;
+    transform: translateX(0px);
 }
 
 .img_cont{
@@ -480,7 +474,6 @@ a:hover{
     margin: 12px;
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.329);
     border-radius: 12px;
-    display: inline-block;
     flex-shrink: 0;
 }
 
@@ -712,6 +705,7 @@ form{
     .mainPage_social{
         display: block;
     }
+    
     .mainPage_social i {
         color: #ffffff;
     }
@@ -737,7 +731,7 @@ form{
         justify-content: space-between;
         align-items: center;
         width: 80px;
-        height: 98vh;
+        height: 100vh;
         background-color: var(--bg-color);
         position: fixed;
         left: 0;
@@ -751,7 +745,7 @@ form{
     }
     
     .vertical_nav_link_list{
-        height: 40vh;
+        min-height: 350px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -802,10 +796,6 @@ form{
 
     .another{
         flex-direction: row;
-    }
-
-    .proj_cont{
-        width: 100%;
     }
 
     form{
