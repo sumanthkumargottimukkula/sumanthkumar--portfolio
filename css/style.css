@@ -12,6 +12,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 :root{
@@ -737,7 +738,7 @@ form{
         left: 0;
         top: 0;
         z-index: 10000;
-        padding: 40px 0px;
+        padding: 30px 0px;
     }
 
     .vertical_nav{
@@ -745,7 +746,7 @@ form{
     }
     
     .vertical_nav_link_list{
-        min-height: 350px;
+        min-height: 250px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
