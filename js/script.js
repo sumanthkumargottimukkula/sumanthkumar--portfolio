@@ -60,7 +60,7 @@ darkModeEl.addEventListener("click",()=>{
 // auto type 
 
 var typed = new Typed(".auto_type",{
-    strings : ["Full-Stack Developer","Web Developer","Python Developer"],
+    strings : ["Aspiring Full-Stack Developer","Web Developer","Python Developer"],
     typeSpeed : 100,
     backSpeed : 100,
     loop : true
@@ -170,66 +170,6 @@ slideImgEl[3].onclick = () => {
     }
     btnEl[3].classList.add("active")
     imgEl[3].classList.add("project_active")
-}
-
-btnEl[4].onclick  = () => {
-    sliderEl.style.transform = "translateX(-1600px)";
-    for (i=0;i<7;i++){
-        btnEl[i].classList.remove("active")
-        imgEl[i].classList.remove("project_active")
-    }
-    btnEl[4].classList.add("active")
-    imgEl[4].classList.add("project_active")
-}
-
-slideImgEl[4].onclick = () => {
-    sliderEl.style.transform = "translateX(-1600px)";
-    for (i=0;i<7;i++){
-        btnEl[i].classList.remove("active")
-        imgEl[i].classList.remove("project_active")
-    }
-    btnEl[4].classList.add("active")
-    imgEl[4].classList.add("project_active")
-}
-
-btnEl[5].onclick  = () => {
-    sliderEl.style.transform = "translateX(-2000px)";
-    for (i=0;i<7;i++){
-        btnEl[i].classList.remove("active")
-        imgEl[i].classList.remove("project_active")
-    }
-    btnEl[5].classList.add("active")
-    imgEl[5].classList.add("project_active")
-}
-
-slideImgEl[5].onclick = () => {
-    sliderEl.style.transform = "translateX(-2000px)";
-    for (i=0;i<7;i++){
-        btnEl[i].classList.remove("active")
-        imgEl[i].classList.remove("project_active")
-    }
-    btnEl[5].classList.add("active")
-    imgEl[5].classList.add("project_active")
-}
-
-btnEl[6].onclick  = () => {
-    sliderEl.style.transform = "translateX(-2400px)";
-    for (i=0;i<7;i++){
-        btnEl[i].classList.remove("active")
-        imgEl[i].classList.remove("project_active")
-    }
-    btnEl[6].classList.add("active")
-    imgEl[6].classList.add("project_active")
-}
-
-slideImgEl[6].onclick = () => {
-    sliderEl.style.transform = "translateX(-2400px)";
-    for (i=0;i<7;i++){
-        btnEl[i].classList.remove("active")
-        imgEl[i].classList.remove("project_active")
-    }
-    btnEl[6].classList.add("active")
-    imgEl[6].classList.add("project_active")
 }
 
 var backBtnEl = document.getElementById("backBtn")
