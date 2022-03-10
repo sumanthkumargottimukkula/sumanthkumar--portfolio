@@ -94,7 +94,7 @@ var imgEl = document.getElementsByClassName("img_cont")
 
 btnEl[0].onclick  = () => {
     sliderEl.style.transform = "translateX(0px)";
-    for (i=0;i<7;i++){
+    for (i=0;i<4;i++){
         btnEl[i].classList.remove("active")
         imgEl[i].classList.remove("project_active")
     }
@@ -104,7 +104,7 @@ btnEl[0].onclick  = () => {
 
 slideImgEl[0].onclick = () => {
     sliderEl.style.transform = "translateX(0px)";
-    for (i=0;i<7;i++){
+    for (i=0;i<4;i++){
         btnEl[i].classList.remove("active")
         imgEl[i].classList.remove("project_active")
     }
@@ -114,7 +114,7 @@ slideImgEl[0].onclick = () => {
 
 btnEl[1].onclick = () => {
     sliderEl.style.transform = "translateX(-380px)";
-    for (i=0;i<7;i++){
+    for (i=0;i<4;i++){
         btnEl[i].classList.remove("active")
         imgEl[i].classList.remove("project_active")
     }
@@ -124,7 +124,7 @@ btnEl[1].onclick = () => {
 
 slideImgEl[1].onclick = () => {
     sliderEl.style.transform = "translateX(-380px)";
-    for (i=0;i<7;i++){
+    for (i=0;i<4;i++){
         btnEl[i].classList.remove("active")
         imgEl[i].classList.remove("project_active")
     }
@@ -134,7 +134,7 @@ slideImgEl[1].onclick = () => {
 
 btnEl[2].onclick = () => {
     sliderEl.style.transform = "translateX(-780px)";
-    for (i=0;i<7;i++){
+    for (i=0;i<4;i++){
         btnEl[i].classList.remove("active")
         imgEl[i].classList.remove("project_active")
     }
@@ -144,7 +144,7 @@ btnEl[2].onclick = () => {
 
 slideImgEl[2].onclick = () => {
     sliderEl.style.transform = "translateX(-780px)";
-    for (i=0;i<7;i++){
+    for (i=0;i<4;i++){
         btnEl[i].classList.remove("active")
         imgEl[i].classList.remove("project_active")
     }
@@ -154,7 +154,7 @@ slideImgEl[2].onclick = () => {
 
 btnEl[3].onclick = () => {
     sliderEl.style.transform = "translateX(-1200px)";
-    for (i=0;i<7;i++){
+    for (i=0;i<4;i++){
         btnEl[i].classList.remove("active")
         imgEl[i].classList.remove("project_active")
     }
@@ -164,7 +164,7 @@ btnEl[3].onclick = () => {
 
 slideImgEl[3].onclick = () => {
     sliderEl.style.transform = "translateX(-1200px)";
-    for (i=0;i<7;i++){
+    for (i=0;i<4;i++){
         btnEl[i].classList.remove("active")
         imgEl[i].classList.remove("project_active")
     }
@@ -176,7 +176,7 @@ var backBtnEl = document.getElementById("backBtn")
 
 backBtnEl.addEventListener("click",()=>{
     sliderEl.style.transform = "translateX(20px)";
-    for (i=0;i<7;i++){
+    for (i=0;i<4;i++){
         btnEl[i].classList.remove("active")
         imgEl[i].classList.remove("project_active")
     }
